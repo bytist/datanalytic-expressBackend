@@ -1,0 +1,14 @@
+{
+	"DB_URI": "mongodb+srv://jenee:SIBKpefSybj6gPW1@laddi.1dxhy.mongodb.net/main",
+	"jwtSecret": "jenee",
+	"statusOption": {
+		"healthChecks": [
+			{
+				"protocol": "http",
+				"host": "localhost",
+				"port": 5000,
+				"path": "/user/health"
+			}
+		]
+	}
+}

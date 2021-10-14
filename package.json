@@ -1,0 +1,24 @@
+{
+	"name": "laddi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"config": "^3.3.6",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-status-monitor": "^1.3.3",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.13.7"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	},
+	"scripts": {
+		"start": "node index",
+		"server": "nodemon",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jenee",
+	"license": "ISC"
+}
